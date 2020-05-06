@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  text = 'Orifginal';
+
   constructor() {}
+
+  changeText() {
+    this.text = 'Chnaged!';
+  }
 
 }

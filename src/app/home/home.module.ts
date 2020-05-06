@@ -4,6 +4,8 @@ import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
+import {IonicLoaderComponent} from 'ionic-loader';
+
 import { HomePage } from './home.page';
 
 @NgModule({
@@ -18,6 +20,6 @@ import { HomePage } from './home.page';
       }
     ])
   ],
-  declarations: [HomePage]
+  declarations: [HomePage, IonicLoaderComponent]
 })
 export class HomePageModule {}
