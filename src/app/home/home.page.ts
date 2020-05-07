@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import Emoji from 'emoji-store';
 
 @Component({
   selector: 'app-home',
@@ -7,12 +8,10 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  text = 'Orifginal';
-
   constructor() {}
 
-  changeText() {
-    this.text = 'Chnaged!';
+  getEmoji(name) {
+    return Emoji.get(name);
   }
 
 }
