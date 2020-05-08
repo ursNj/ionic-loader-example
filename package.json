@@ -24,7 +24,7 @@
     "@ionic-native/status-bar": "^5.0.0",
     "@ionic/angular": "^4.7.1",
     "core-js": "^2.5.4",
-    "emoji-store": "^1.1.0",
+    "emoji-store": "^1.2.2",
     "ionic-loader": "^1.1.1",
     "rxjs": "~6.5.1",
     "tslib": "^1.9.0",

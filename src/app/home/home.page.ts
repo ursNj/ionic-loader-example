@@ -10,8 +10,8 @@ export class HomePage {
 
   constructor() {}
 
-  getEmoji(name) {
-    return Emoji.get(name);
+  getEmoji(name, count) {
+    return Emoji.get(name, count);
   }
 
 }
